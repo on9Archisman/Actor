@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class SecondViewController: UIViewController {
     
@@ -41,6 +42,11 @@ class SecondViewController: UIViewController {
     }
     
     @IBAction func actionNextPage(_ sender: UIButton) {
-        // Done via storyboard
+        // Done via storyboard @IBSegueAction to show SwiftUIView
+    }
+    
+    // MARK: - Show SwiftUI View From UIKit
+    @IBSegueAction func showSwiftUIView(_ coder: NSCoder) -> UIViewController? {
+        return UIHostingController(coder: coder, rootView: ActorSwiftUIView())
     }
 }

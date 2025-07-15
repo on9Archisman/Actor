@@ -37,7 +37,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="935" y="-369"/>
+            <point key="canvasLocation" x="917" y="-984"/>
         </scene>
         <!--Actor Sample Two-->
         <scene sceneID="3GD-t1-Hme">
@@ -59,6 +59,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Next Page &gt;"/>
                                 <connections>
                                     <action selector="actionNextPage:" destination="eX1-cP-rhb" eventType="touchUpInside" id="7e9-iN-9oe"/>
+                                    <segue destination="o3b-gw-qxU" kind="show" destinationCreationSelector="showSwiftUIView:" id="zfY-he-pro"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -78,7 +79,17 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KZz-NQ-zhy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1689" y="-235"/>
+            <point key="canvasLocation" x="917" y="-260"/>
+        </scene>
+        <!--Hosting Controller-->
+        <scene sceneID="IPn-ss-Fdm">
+            <objects>
+                <hostingController id="o3b-gw-qxU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yKd-3C-ceU"/>
+                </hostingController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pYL-5d-8cq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1653" y="-985"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="z3C-sH-v2a">
@@ -96,7 +107,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oow-au-keE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="233" y="-463"/>
+            <point key="canvasLocation" x="146" y="-642"/>
         </scene>
     </scenes>
     <resources>
